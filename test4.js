@@ -42,7 +42,7 @@ function giphyData() {
     var searchTerm1 = cityForcast
     //  var searchTerm2 = zipForcast
     var key = "vGqNVOHVpTq2I38yL5iqbi3Zpg6HYzEB"
-    var giphy1 = "http://api.giphy.com/v1/gifs/search?q=" + searchTerm1 + "&api_key=" + key;
+    var giphy1 = "https://api.giphy.com/v1/gifs/search?q=" + searchTerm1 + "&api_key=" + key;
     $.ajax({
         url: giphy1,
         method: "GET",
