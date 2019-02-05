@@ -7,7 +7,7 @@ $("#showGif").hide();
 function cityCall() {
     var city = document.getElementById("city").value;
     var key2 = "851f7df26e3e439be0303240ed7125b9";
-    var openWeatherCity = "http://api.openweathermap.org/data/2.5/weather?q=" + city + ",us&APPID=" + key2 + "&units=imperial";
+    var openWeatherCity = "https://api.openweathermap.org/data/2.5/weather?q=" + city + ",us&APPID=" + key2 + "&units=imperial";
     $.ajax({
         url: openWeatherCity,
         method: "GET",
